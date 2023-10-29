@@ -1,0 +1,86 @@
+.navbar{
+    background-color: black;
+   
+}
+.navbar-brand img{
+    width: 150px;
+    height: auto;
+}
+.nav-link{
+    font-size: 20px;
+    margin: 10px;
+}
+.collapse{
+    position: relative;
+}
+.navbar-nav{
+    position: absolute;
+    right: 0px;
+    background-color: black;
+}
+.lines{
+    text-align: center;
+}
+.poster{
+  margin: 20px;
+  
+}
+body{
+    background-color: black;
+}
+.lines h1{
+   color:white;
+   font-size: 55px;
+}
+.pic{
+  text-align: center;
+  margin-top:25px;
+}
+.pic img{
+    width:600px;
+    height: auto;
+}
+.lines{
+    margin-top: 30px;
+}
+.text{
+    color: orangered;
+}
+.lines h2{
+    color: white;
+    margin-top: 60px;
+
+}
+.order{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 10px solid transparent;
+    border-radius: 30px;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+}
+.order:hover{
+    background-color: orangered;
+    color: black;
+}
+.ord{
+    margin: 80px;
+}
+.offers{
+    text-align: center;
+    color: white;
+    margin: 60px;
+    
+}
+.offers h1{
+    font-size: 50px;
+    
+}
+.cimg{
+    width: 1200px;
+    height:auto;
+}
