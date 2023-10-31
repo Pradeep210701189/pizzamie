@@ -3,12 +3,15 @@
    
 }
 .navbar-brand img{
-    width: 150px;
+    width: 130px;
     height: auto;
 }
 .nav-link{
     font-size: 20px;
     margin: 10px;
+}
+.lin:hover{
+    border-bottom: 2px solid orangered;
 }
 .collapse{
     position: relative;
@@ -17,6 +20,7 @@
     position: absolute;
     right: 0px;
     background-color: black;
+    
 }
 .lines{
     text-align: center;
@@ -52,20 +56,20 @@ body{
 
 }
 .order{
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     text-decoration: none;
-    border: 10px solid transparent;
+    list-style-type: none;
+    padding: 15px 30px;
     border-radius: 30px;
-    font-size: 25px;
-    text-align: center;
-    margin: 10px;
+    font-size: 20px;
     font-family: 'Century Gothic';
+    border: 2px solid orangered;
     font-weight: bold;
 }
 .order:hover{
     background-color: orangered;
-    color: black;
+    color: white;
 }
 .ord{
     margin: 80px;
@@ -78,9 +82,131 @@ body{
 }
 .offers h1{
     font-size: 50px;
+   
     
 }
 .cimg{
     width: 1200px;
     height:auto;
 }
+.line{
+    width:300px;
+    height: 4px;
+    background-color: orangered;
+    margin-top: 60px;
+}
+.aboutus{
+    background-color: white;
+    
+}
+.apic img{
+    width: 300px;
+    height: auto;
+}
+.apara{
+    color: black;
+    font-size: 25px;
+    font-family: 'Century Gothic';
+}
+.apic{
+    text-align: center;
+}
+.plines{
+    margin: 25px ;
+   text-align: center;
+}
+.foot{
+    background-color: black;
+}
+.footnav{
+
+}
+.afoot{
+    color:white;
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    
+}
+.afoot:hover{
+    border-bottom: 1px solid orangered;
+}
+.footul{
+    list-style-type: none;
+    
+}
+.footli{
+    margin:40px;
+}
+.footul{
+    margin-top: 35px;
+}
+html{
+    background-color:black;
+}
+.foot1{
+    margin-top: 30px;
+}
+.footcont{
+    padding-top: 30px;
+}
+header{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    border-bottom: 1px solid white;  
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.ra{
+    text-align: center;
+    font-size: 15px;
+}
+.cart:hover{
+    color: orangered;
+}
+.menu h1{
+    color: white;
+    font-size: 55px;
+}
+.menu{
+    text-align: center;
+    margin-top: 80px;
+    background-color: black;
+}
+.p1 img{
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+   background-color: white;
+   border-radius: 10px;
+}
+.p1{
+    text-align: center;
+  border-radius: 10px;
+ margin-top: 50px;
+padding-bottom: 10px;
+
+  
+}
+.bnb{
+    color: black;
+    padding: 5px 15px;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.pfood{
+    margin-bottom: 30px;
+}
+.bnb:hover{
+    color: white;
+    background-color: orangered;
+}
+/* .cslide{
+    width: 900px;
+    height: auto;
+} */
