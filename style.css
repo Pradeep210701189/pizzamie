@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar{
     background-color: black;
    
@@ -206,9 +211,59 @@ padding-bottom: 10px;
     color: white;
     background-color: orangered;
 }
-/* .cslide{
-    width: 900px;
+.logo2{
+    width: 150px;
     height: auto;
+}
+header{
+    text-align: center;
+}
+/* .b2{
+   position: relative;  
+}
+.nb2{
+    position: absolute;
+    left: 50px;
 } */
-
-/* hii */
+.yord{
+    text-align: center;
+}
+.ordrow1{
+    margin-top: 70px;
+}
+.pord1{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.hord1{
+    color: orangered;
+    font-size: 25px;
+}
+.hord12{
+    color: orangered;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.rad1{
+    width: 150px;
+    height: auto;
+    text-align: left;
+}
+.tot1{
+    padding-top: 30px;
+    margin-bottom:40px ;
+}
+.placeord1{
+    color: black;
+    padding: 5px 20px;
+    background-color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.placeord1:hover{
+    background-color: orangered;
+    color: white;
+}
+.yourord{
+    padding-top: 20px;
+}
