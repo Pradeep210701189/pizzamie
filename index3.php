@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>pizza shop</title>
+    <link rel="stylesheet" href="style.css"><script src="https://kit.fontawesome.com/f137950dee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<header>
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="banner container">
+        <a href="#" class="navbar-brand"><img src="images/logo.png"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active lin" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lin" href="#a1">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lin" href="#menu">MENU</a>
+              </li>
+              <li class="nav-item lin">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              <li class="nav-item lin">
+                <a class="nav-link" href="index.html">SIGN-OUT</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="row poster">
+ <div class="col-sm-6 lines">
+        <h1>Get ready to taste the world's best <span class="text">pizzas</span> at the best prices!</h1>
+        <h2>Get <span class="text">25%</span> OFF on first orders</h2>
+        <div class="ord"></div>
+        <a href="#menu" class="order">ORDER NOW</a>
+    </div>
+    <div class="col-sm-6 pic container">
+        <img src="images/newpiz.png" class="img-fluid">
+    </div>
+</div>
+<div class="line container"></div>
+
+
+<div class="offers">
+    <h1>Todays's Offers</h1>
+</div>
+<!-- <div class="cs container"> -->
+<div class="cslide ">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner container">
+    <div class="carousel-item active" data-bs-interval="4000">
+      <img src="images/c1.png" class="d-block cimg img-fluid" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="images/c2.png" class="d-block cimg img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/c3.png" class="d-block cimg img-fluid" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+<!-- </div> -->
+</div>
+<div class="line container"></div>
+
+<div class="menu" id="menu">
+  <div class="container">
+  <h1>MENU</h1>
+  <div class="container pizzas">
+<div class="row pfood">
+  <div class="col-sm-4 p1">
+    <img src="images/p1.png" class="img-fluid" style="width: 300px;height: auto;">
+    <div class="container buy">
+      <p style="color:white;font-size: 25px;margin-bottom: 0px;">INDI PANEER PIZZA</p>
+      <div class="rate">
+      <p style="color:white; font-size:22px;"><span style="text-decoration:line-through; font-size: 16px;">₹399</span>₹299</p>
+    </div>
+      <a href="order1.html" class="bnb" style="padding-bottom: 5px;">BUY NOW</a>
+    </div>
+  </div>
+
+  <div class="col-sm-4 p1">
+    <img src="images/p2.png" class="img-fluid">
+    <div class="container buy">
+      <p style="color:white;font-size: 25px;margin-bottom: 0px;">BUFFALO CHICKEN PIZZA</p>
+      <div class="rate">
+      <p style="color:white; font-size:22px;"><span style="text-decoration:line-through; font-size: 16px;">₹399</span>₹299</p>
+    </div>
+      <a href="order2.html" class="bnb" style="padding-bottom: 5px;">BUY NOW</a>
+    </div>
+  </div>
+
+  <div class="col-sm-4 p1">
+    <img src="images/p3.png" class="img-fluid">
+    <div class="container buy">
+      <p style="color:white;font-size: 25px;margin-bottom: 0px;">THAI CHICKEN PIZZA</p>
+      <div class="rate">
+      <p style="color:white; font-size:22px;"><span style="text-decoration:line-through; font-size: 16px;">₹399</span>₹299</p>
+    </div>
+      <a href="order3.html" class="bnb" style="padding-bottom: 5px;">BUY NOW</a>
+    </div>
+  </div>
+
+  <div class="col-sm-4 p1">
+    <img src="images/p4.png" class="img-fluid">
+    <div class="container buy">
+      <p style="color:white;font-size: 25px;margin-bottom: 0px;">PEPPERONI PIZZA</p>
+      <div class="rate">
+      <p style="color:white; font-size:22px;"><span style="text-decoration:line-through; font-size: 16px;">₹399</span>₹299</p>
+    </div>
+      <a href="order4.html" class="bnb" style="padding-bottom: 5px;">BUY NOW</a>
+    </div>
+  </div>
+
+  <div class="col-sm-4 p1">
+    <img src="images/p5.png" class="img-fluid">
+    <div class="container buy">
+      <p style="color:white;font-size: 25px;margin-bottom: 0px;">MUSHROOM PIZZA</p>
+      <div class="rate">
+      <p style="color:white; font-size:22px;"><span style="text-decoration:line-through; font-size: 16px;">₹399</span>₹299</p>
+    </div>
+      <a href="order5.html" class="bnb" style="padding-bottom: 5px;">BUY NOW</a>
+    </div>
+  </div>
+
+  <div class="col-sm-4 p1">
+    <img src="images/p6.png" class="img-fluid">
+    <div class="container buy">
+      <p style="color:white;font-size: 25px;margin-bottom: 0px;">CHEESE PIZZA</p>
+      <div class="rate">
+      <p style="color:white; font-size:22px;"><span style="text-decoration:line-through; font-size: 16px;">₹399</span>₹299</p>
+    </div>
+      <a href="order6.html" class="bnb" style="padding-bottom: 5px;">BUY NOW</a>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="aboutus" id="a1">
+<div class="offers">
+  <h1 style="color: black; padding-top: 20px;">About Us</h1>
+</div>
+<div class="container about">
+  <div class="apic">
+    <img src="images/logo4.PNG" class="img-fluid">
+  </div>
+  <div class=" plines ">
+    <p class="apara">Welcome to <span style="color:orangered;font-size: 30px;">PizzaMie!!</span>, where your pizza cravings meet their match! Our passion for pizza runs deep, and we're here to make sure you experience the very best in every cheesy, saucy bite. At PizzaMie, we're not just about serving pizza; we're about crafting delicious moments that bring joy to your taste buds. Our story began with a simple belief that everyone deserves a piping hot, perfectly baked pizza whenever they desire. We handpick the finest ingredients, create delectable recipes, and bake each pie with love and care. Whether you're in the mood for a classic Margherita, a meat-lover's delight, or a vegetarian masterpiece, we've got a slice of heaven for you. Join us on this culinary journey, and let's share the magic of pizza, one slice at a time. Thank you for choosing PizzaMie – where great taste meets great moments.</p>
+  </div>
+</div> 
+</div>
+
+<div class="foot">
+  <div class="row">
+    <div class="col-sm-4 footnav ">
+      <ul class="footul">
+        <li class="footli">
+          <a href="#" class="afoot">Home</a>
+        </li>
+        <li class="footli">
+          <a href="#" class="afoot">About</a>
+        </li>
+        <li class="footli">
+          <a href="#" class="afoot">Menu</a>
+        </li>
+        <li class="footli">
+          <a href="#" class="afoot">Contact</a>
+        </li>
+        <li class="footli">
+          <a href="#" class="afoot">Sign-in</a>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="col-sm-4 flogo " >
+      <img src="images/logo.png" class="img-fluid">
+    </div> --> 
+    
+    <div class="col-sm-4 footnav ">
+      <ul class="footul">
+        <li class="footli">
+          <a href="#" class="afoot">Legal</a>
+        </li>
+        <li class="footli">
+          <a href="#" class="afoot">Terms&Condition</a>
+        </li>
+        <li class="footli">
+          <a href="#" class="afoot">Privacy Policy</a>
+        </li>
+        <li class="footli">
+          <a href="#" class="afoot">Disclaimer</a>
+        </li>
+        <li class="footli">
+          <a href="#" class="afoot">Caution Notice</a>
+        </li> 
+      </ul>
+    </div>
+
+<!-- <div class="col-sm-4 contact">
+  jdk
+</div> -->
+<div class="col-sm-4 footnav" id="contact">
+  <div class="contt" style="text-align: center;margin-top: 35px;">
+  <h1 style="font-size:25px;color: white;text-decoration: underline;">Contact Us</h1>
+</div>
+  <ul class="footul">
+    <li class="footli">
+      <a href="https://www.facebook.com/" class="afoot"><i class="fa-brands fa-facebook"></i>  Facebook</a>
+    </li>
+    <li class="footli">
+      <a href="https://www.instagram.com/" class="afoot"><i class="fa-brands fa-square-instagram"></i>   Instagram</a>
+    </li>
+    <li class="footli">
+      <a href="https://www.whatsapp.com/" class="afoot"><i class="fa-brands fa-square-whatsapp"></i>  Whatsapp</a>
+    </li>
+    <li class="footli">
+      <a href="https://twitter.com/i/flow/login" class="afoot"><i class="fa-brands fa-square-x-twitter"></i>  Twitter</a>
+    </li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+</body>
+<p class="container ra" style="color: white;font-size: 25px;">copyrights@2023</p>
+</html>
+
+<?php 
